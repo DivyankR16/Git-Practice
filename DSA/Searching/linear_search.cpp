@@ -9,8 +9,8 @@ void solve(){
     vector<ll> a(n);
     forn(i, n) cin >> a[i];
     bool res = false;
-    for (ll i = 0; i < a.size();i++){
-        if(a[i]==target){
+    for (auto e:a){
+        if(e==target){
             res = true;
             break;
         }
